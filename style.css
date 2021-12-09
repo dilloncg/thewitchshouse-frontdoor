@@ -1,0 +1,149 @@
+img{
+  max-width: 100%;
+}
+
+body{
+  background-image: url(room_01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.faye{
+  height: 20px;
+  width: 20px;
+  font-size: 10px;
+  color: white;
+  border-radius: 10px;
+  background: white;
+  position: fixed;
+  top: 300px;
+  left: 800px;
+  opacity: 0.7;
+  z-index: 10;
+  transition: transform 0.5s;
+}
+
+.faye2{
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: white;
+  position: fixed;
+  top: 130px;
+  left: 900px;
+  opacity: 0.7;
+  z-index: 10;
+  transition: transform 0.5s;
+}
+
+.faye2:hover{
+  transform: scale(2);
+}
+
+.faye:hover{
+  transform: scale(2);
+}
+
+.faye3{
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: white;
+  position: fixed;
+  top: 190px;
+  left: 600px;
+  opacity: 0.7;
+  z-index: 10;
+  transition: transform 0.5s;
+}
+
+.faye3:hover{
+  transform: scale(2);
+}
+
+.faye4{
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: white;
+  position: fixed;
+  top: 290px;
+  left: 1100px;
+  opacity: 0.7;
+  z-index: 10;
+  transition: transform 0.5s;
+}
+
+.faye4:hover{
+  transform: scale(2);
+}
+
+.faye5{
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: white;
+  position: fixed;
+  top: 400px;
+  left: 360px;
+  opacity: 0.7;
+  z-index: 10;
+  transition: transform 0.5s;
+}
+
+.faye5:hover{
+  transform: scale(2);
+}
+
+.faye6{
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: white;
+  position: fixed;
+  top: 70px;
+  left: 1200px;
+  opacity: 0.7;
+  z-index: 10;
+  transition: transform 0.5s;
+}
+
+.faye6:hover{
+  transform: scale(2);
+}
+
+.door{
+  left: 58px;
+  top: 48px;
+  height: 955px;
+  position: fixed;
+  animation: come-in 10s 1 ease;
+  opacity: 0;
+}
+
+@keyframes come-in {
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+a{
+  margin-left: 500px;
+  margin-top: 450px;
+  position: fixed;
+  color: white;
+  font-size: 40px;
+  opacity: 0;
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 1;
+}
